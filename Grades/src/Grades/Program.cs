@@ -33,7 +33,7 @@ namespace Grades
             WriteResult("Lowest", stats.LowestGrade);
 
             synth.Speak("Please press any key to continue, Thank you");
-            
+            Console.WriteLine("the rain falls during storms");
 
             Gradebook book2 = new Gradebook();
             book2.AddGrade(18);
