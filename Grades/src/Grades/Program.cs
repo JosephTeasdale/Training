@@ -33,7 +33,8 @@ namespace Grades
             WriteResult("Lowest", stats.LowestGrade);
 
             synth.Speak("Please press any key to continue, Thank you");
-            Console.WriteLine("added extra the dog is still lost, why did it run");
+            
+
             Gradebook book2 = new Gradebook();
             book2.AddGrade(18);
             book2.AddGrade(78);
